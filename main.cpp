@@ -52,97 +52,107 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: television
+//  action 1: the television connects to aerial
+television.connectToAerial();
+//  action 2: the television emits sound
+television.emitSound();
+//  action 3: the television emits light
+television.emitLight();
 
 //  2)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: smartphone
+//  action 1: the smartphone stores data   
+smartphone.storeData();
+//  action 2: the smartphone auto-adapts brightness
+smartphone.autoAdaptBrightness();
+//  action 3: the smartphone loses battery
+smartphone.loseBattery();
 
 //  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: shoe
+//  action 1: the shoe protects the foot
+shoe.protectFoot();
+//  action 2: the shoe conveys fashion
+shoe.conveyFashion();
+//  action 3: the shoe provides comfort
+shoe.provideComfort();
 
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: wall
+//  action 1: the wall separates spaces
+wall.separateSpaces();
+//  action 2: the wall attenuates sound
+wall.attenuateSound();
+//  action 3: the wall blocks vision
+wall.blockVision();
 
 //  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: loudspeaker
+//  action 1: the loudspeaker rumbles its surroundings
+loudspeaker.rumbleSurroundings();
+//  action 2: the loudspeaker damages hearing
+loudspeaker.damageHearing();
+//  action 3: the loudspeaker colours sound
+loudspeaker.colourSound();
 
 //  6)
-//  Noun:
-//  action 1:
+//  Noun: hotel
+//  action 1: the hotel provides shelter
+hotel.provideShelter();
+//  action 2: the hotel charges a guest money
+hotel.chargeGuestMoney();
+//  action 3: the hotel provides food
+hotel.provideFood();
 
-//  action 2:
-
-//  action 3:
-
-//  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  7) 
+//  Noun: web browser
+//  action 1: the web browser caches data 
+webBrowser.cacheData();
+//  action 2: the web browser connects to servers 
+webBrowser.connectToServer();
+//  action 3: the web browser displays search results
+webBrowser.displaySearchResults();
 
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: cat
+//  action 1: the cat explores 
+cat.explore();
+//  action 2: the cat meows 
+cat.meow();
+//  action 3: the cat yawns
+cat.yawn();
 
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: train
+//  action 1: the train transports passengers
+train.transportPassengers();
+//  action 2: the train consumes fuel
+train.consumeFuel();
+//  action 3: the train follows a track
+train.followTrack();
 
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
-
+//  Noun: spotify
+//  action 1: spotify plays music 
+spotify.playMusic();
+//  action 2: spotify increments stream counts
+spotify.incrementStreamCount();
+//  action 3: spotify stores user preferences
+spotify.storeUserPreference();
 
 #endif
 
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
 
- Commit your changes by clicking on the Source Control panel on the left, entering a message, and click [Commit and push].
- 
- If you didn't already: 
+ Commit your changes by clicking on the Source Control panel on the left,
+ entering a message, and click [Commit and push].
+
+ If you didn't already:
     Make a pull request after you make your first commit
-    pin the pull request link and this repl.it link to our DM thread in a single message.
+    pin the pull request link and this repl.it link to our DM thread in a single
+ message.
 
  send me a DM to review your pull request when the project is ready for review.
 
@@ -150,8 +160,7 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
  */
 
 #include <iostream>
-int main()
-{
-    std::cout << "good to go" << std::endl;
-    return 0;
+int main() {
+  std::cout << "good to go" << std::endl;
+  return 0;
 }
