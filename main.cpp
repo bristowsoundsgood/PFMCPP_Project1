@@ -115,13 +115,13 @@ webBrowser.connectToServer();
 webBrowser.displaySearchResults();
 
 //  8)
-//  Noun: cat
-//  action 1: the cat explores 
-cat.explore();
-//  action 2: the cat meows 
-cat.meow();
-//  action 3: the cat yawns
-cat.yawn();
+//  Noun: private library
+//  action 1: the private library lends books 
+privateLibrary.lendBook();
+//  action 2: the private library accepts valid members
+privateLibrary.acceptValidMember();
+//  action 3: the private library rejects invalid members
+privateLibrary.rejectInvalidMember();
 
 //  9)
 //  Noun: train
